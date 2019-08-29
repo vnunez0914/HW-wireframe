@@ -5,23 +5,53 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    text-align: center;
 }
 
-#box {
+.box {
     background: #ebebeb;
+    text-align: center;
+    height: 70px;
+    margin: 5px;
 }
 
 article {
     color: #ebebeb;
     background: #777;
+    height: 200px;
+    margin-bottom: 5px;
 }
 
 h1, p {
     color: #777;
     background: #ebebeb;
+    height: 60px;
+    width: 455px;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 5px;
 }
 
 .container {
     width: 495px;
     background: #ebebeb;
+    padding: 10px;
+    margin: 5px;
 }
+
+aside {
+    float: right;
+    width: 425px;
+    height: 300px;
+    background: #ebebeb;
+    text-align: center;
+    margin-right: 5px;
+}
+
+section {
+    height: 60px;
+    margin-left: 25px;
+    margin-top: 15px;
+    
+}
+
